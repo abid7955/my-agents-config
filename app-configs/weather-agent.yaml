@@ -3,3 +3,9 @@ image:
   repository: abid8/weather-agent
   tag: v5 # Or whichever is your latest tag
 port: 8001
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 8 # The maximum number of pods
+  targetCPUUtilizationPercentage: 50 # Scale up if CPU goes above 50%
