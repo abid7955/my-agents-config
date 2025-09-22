@@ -1,5 +1,5 @@
 name: binance-agent
 image:
   repository: abid8/binance-agent
-  tag: v5 # Or whichever is your latest tag
+  tag: v1 # Or whichever is your latest tag
 port: 8000
