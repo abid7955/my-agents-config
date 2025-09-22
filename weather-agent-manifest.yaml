@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: weather-agent-container
-        image: abid8/weather-agent:v1 # <-- CHANGE THIS
+        image: abid8/weather-agent:v3 # <-- CHANGE THIS
         ports:
         - containerPort: 8001
 ---
