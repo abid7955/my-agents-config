@@ -9,3 +9,6 @@ autoscaling:
   minReplicas: 1
   maxReplicas: 8 # The maximum number of pods
   targetCPUUtilizationPercentage: 50 # Scale up if CPU goes above 50%
+
+ingress:
+  enabled: true
