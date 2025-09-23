@@ -1,5 +1,5 @@
 name: binance-agent
 image:
-  repository: abid8/binance-agent
+  repository: 093326771032.dkr.ecr.us-east-1.amazonaws.com/binance-agent
   tag: v1 # Or whichever is your latest tag
 port: 8000

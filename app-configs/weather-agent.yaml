@@ -1,6 +1,6 @@
 name: weather-agent
 image:
-  repository: abid8/weather-agent
+  repository: 093326771032.dkr.ecr.us-east-1.amazonaws.com/weather-agent
   tag: v5 # Or whichever is your latest tag
 port: 8001
 
