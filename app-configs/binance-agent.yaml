@@ -3,3 +3,9 @@ image:
   repository: 093326771032.dkr.ecr.us-east-1.amazonaws.com/binance-agent
   tag: v1 # Or whichever is your latest tag
 port: 8000
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 8 # The maximum number of pods
+  targetCPUUtilizationPercentage: 50 # Scale up if CPU goes above 50%
